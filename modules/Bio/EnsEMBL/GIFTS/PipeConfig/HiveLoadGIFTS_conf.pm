@@ -37,7 +37,7 @@ sub default_options {
     # In order to seed the database multiple times, we need the
     # species list here, rather than specified via 'input_id'.
     species_list => [
-      'danio_rerio',
+      #'danio_rerio',#uniprot is not importing annotations from ensembl for zebrafish,they now import refseq annotations
       'glycine_max',
       'homo_sapiens',
       'mus_musculus',
